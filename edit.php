@@ -225,66 +225,6 @@ if (!isset($application['languages_array'])) {
     <meta charset="UTF-8">
     <title>Редактирование анкеты #<?= h($id) ?></title>
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding: 40px 20px;
-        }
-        .container { max-width: 800px; margin: 0 auto; }
-        .card {
-            background: white;
-            border-radius: 24px;
-            padding: 32px;
-            box-shadow: 0 20px 40px -12px rgba(0,0,0,0.3);
-        }
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 24px;
-            border-radius: 20px;
-            margin-bottom: 24px;
-            text-align: center;
-        }
-        .form-group { margin-bottom: 20px; }
-        label { display: block; margin-bottom: 8px; font-weight: 600; }
-        .required::after { content: " *"; color: #ef4444; }
-        input, select, textarea {
-            width: 100%;
-            padding: 12px 16px;
-            border: 2px solid #e5e7eb;
-            border-radius: 12px;
-            font-size: 15px;
-        }
-        select[multiple] { height: 150px; }
-        .radio-group { display: flex; gap: 24px; padding: 8px 0; }
-        .radio-group label { display: flex; align-items: center; gap: 8px; font-weight: normal; }
-        .checkbox-group { display: flex; align-items: center; gap: 12px; }
-        .btn-save, .btn-cancel {
-            padding: 12px 24px;
-            border-radius: 40px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            margin-right: 12px;
-            border: none;
-        }
-        .btn-save {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-        }
-        .btn-cancel {
-            background: #e5e7eb;
-            color: #1f2937;
-            text-decoration: none;
-            display: inline-block;
-        }
-        .message { background: #dcfce7; color: #16a34a; padding: 12px; border-radius: 12px; margin-bottom: 20px; }
-        .error { background: #fee2e2; color: #dc2626; padding: 12px; border-radius: 12px; margin-bottom: 20px; }
-        .small-hint { font-size: 11px; color: #6b7280; margin-top: 4px; }
-    </style>
 </head>
 <body>
 <div class="container">

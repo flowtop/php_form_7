@@ -82,59 +82,6 @@ $csrf_token = generateCSRFToken();
     <meta charset="UTF-8">
     <title>Вход для изменения данных</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-        .login-box {
-            max-width: 400px;
-            width: 100%;
-            background: white;
-            border-radius: 24px;
-            padding: 32px;
-            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.35);
-            text-align: center;
-        }
-        h1 { margin-bottom: 20px; color: #1f2937; }
-        input {
-            width: 100%;
-            padding: 12px 16px;
-            margin: 10px 0;
-            border: 2px solid #e5e7eb;
-            border-radius: 12px;
-            font-size: 15px;
-        }
-        button {
-            width: 100%;
-            padding: 14px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
-            border-radius: 40px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-        .error { 
-            color: #dc2626; 
-            margin-bottom: 15px; 
-            padding: 10px; 
-            background: #fee2e2; 
-            border-radius: 12px; 
-        }
-        a { 
-            display: block; 
-            margin-top: 20px; 
-            color: #667eea; 
-        }
-    </style>
 </head>
 <body>
 <div class="login-box">
