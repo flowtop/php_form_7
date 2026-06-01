@@ -224,6 +224,8 @@ if (!isset($application['languages_array'])) {
 <head>
     <meta charset="UTF-8">
     <title>Редактирование анкеты #<?= h($id) ?></title>
+    <link rel="stylesheet" href="style.css">
+
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {

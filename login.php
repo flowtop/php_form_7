@@ -81,6 +81,7 @@ $csrf_token = generateCSRFToken();
 <head>
     <meta charset="UTF-8">
     <title>Вход для изменения данных</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);

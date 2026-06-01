@@ -146,6 +146,7 @@ $csrf_token = generateCSRFToken();
 <head>
     <meta charset="UTF-8">
     <title>Панель администратора</title>
+    <link rel="stylesheet" href="admin.css">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
